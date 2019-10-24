@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Application;Network;
+Comment=Connect to My Server
+Encoding=UTF-8
+Exec=sudo openfortivpn -c /etc/openfortivpn/config
+GenericName=SSH Server
+Name[en_US]=FortiClient
+Name=FortiClient
+Terminal=true
+Type=Application
+Version=1.0
