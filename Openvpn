@@ -1,11 +1,21 @@
 [Desktop Entry]
 Categories=Application;Network;
+Comment[en_US]=Connect to My Server
 Comment=Connect to My Server
 Encoding=UTF-8
-Exec=sudo openfortivpn -c /etc/openfortivpn/config
+Exec=openvpn /home/rick/Desktop/OpenVpn/mandic.ovpn
+GenericName[en_US]=SSH Server
 GenericName=SSH Server
-Name[en_US]=FortiClient
-Name=FortiClient
+MimeType=
+Name[en_US]=OpenVpn
+Name=OpenVpn
+Path=
+StartupNotify=true
 Terminal=true
+TerminalOptions=
 Type=Application
 Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
