@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Application;Network;
 Comment[en_US]=Connect to My Server
-Comment=Connect to My Server
+Comment=Open vpn server conect with login.conf
 Encoding=UTF-8
 Exec=openvpn /home/rick/Desktop/OpenVpn/mandic.ovpn
 GenericName[en_US]=SSH Server
